@@ -9,3 +9,9 @@ services:
       - ./app:/app
     ports:
       - 8000:8000
+    environment:
+      - DJANGO_DEBUG=1
+
+
+
+# this is our docker compose configuration for our development server, not for deployment
